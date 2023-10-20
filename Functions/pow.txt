@@ -1,0 +1,15 @@
+float pow(float base, int exponent) {
+    float result = 1.0;
+
+    agar (exponent >= 0) {
+        for (int i = 0; i < exponent; i++) {
+            result *= base;
+        }
+    } warna {
+        for (int i = 0; i > exponent; i--) {
+            result /= base;
+        }
+    }
+    
+    return result;
+}

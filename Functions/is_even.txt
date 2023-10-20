@@ -1,0 +1,18 @@
+int is_even(int num) {
+    agar (num % 2 == 0) {
+        return 1;
+    } warna {
+        return 0;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+

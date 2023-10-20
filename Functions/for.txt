@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+int kabtak(int variable, int start, int end, int step, void (*loop_block)(int)) {
+    if (start <= end) {
+        while (variable <= end) {
+            loop_block(variable);
+            variable += step;
+        }
+    } else {
+        while (variable >= end) {
+            loop_block(variable);
+            variable -= step;
+        }
+    }
+}
+
+void loop(int i) {
+    printf("Iteration %d\n", i);
+}
+
+int main() {
+    int i = 0;
+    kabtak(i, 1, 5, 1, loop);
+    return 0;
+}

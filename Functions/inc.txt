@@ -1,0 +1,3 @@
+int inc(int num) {
+    return num + 1;
+}

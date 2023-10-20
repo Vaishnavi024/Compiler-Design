@@ -1,0 +1,10 @@
+int is_odd(int num) {
+    agar (num % 2 != 0) {
+        return 1;
+    } warna {
+        return 0;
+    }
+}
+
+
+

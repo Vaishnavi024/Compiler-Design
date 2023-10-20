@@ -1,0 +1,38 @@
+#include <stdio.h>
+#include <string.h>
+
+void input(const char *prompt, void *input, int input_size) {
+    printf("%s", prompt);
+    char buffer[100];
+    fgets(buffer, sizeof(buffer), stdin);
+    
+    if (input_size == sizeof(int)) {
+        sscanf(buffer, "%d", (int *)input);
+    } else {
+        strncpy((char *)input, buffer, input_size);
+    }
+}
+
+float input_float(const char *prompt) {
+    float input;
+    printf("%s", prompt);
+    scanf("%f", &input);
+    return input;
+}
+
+
+int main() {
+    char userInput[100];
+    int userNumber;
+
+    input("Enter a string: ", userInput, sizeof(userInput));
+    printf("You entered: %s\n", userInput);
+
+    input("Enter an integer: ", &userNumber, sizeof(int));
+    printf("You entered: %d\n", userNumber);
+
+    float userFloat = input_float("Enter a float: ");
+    printf("You entered: %f\n", userFloat);
+
+    return 0;
+}

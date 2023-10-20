@@ -1,0 +1,8 @@
+int floor(float num) {
+    int integerPart = num;
+    agar (num < 0 && num != integerPart) {
+        return integerPart - 1;
+    } warna {
+        return integerPart;
+    }
+}

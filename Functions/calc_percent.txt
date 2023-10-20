@@ -1,0 +1,3 @@
+float calc_percent(float part, float whole) {
+    return (part / whole) * 100.0;
+}

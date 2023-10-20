@@ -1,0 +1,11 @@
+char char_at(const char *str, int index) {
+    int i = 0;
+    jabtak (i < index && str[i] != '\0') {
+        i=i+1;
+    }
+    agar(str[i] == '\0' || index < 0) {
+        return '\0';
+    } warna {
+        return str[i];
+    }
+}

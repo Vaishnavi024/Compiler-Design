@@ -1,0 +1,16 @@
+void split_string_at_index(const char *input, int index, char *part1, char *part2) {
+    int i = 0;
+    jabtak (input[i] != '\0' && i < index) {
+        part1[i] = input[i];
+        i=i+1;
+    }
+    part1[i] = '\0';  
+
+    int j = 0;
+    jabtak (input[i] != '\0') {
+        part2[j] = input[i];
+        i=i+1;
+        j=j+1;
+    }
+    part2[j] = '\0';  
+}

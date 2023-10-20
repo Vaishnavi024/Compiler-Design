@@ -1,0 +1,4 @@
+float add_percent(float value, float percentage) {
+    float increase = (value * percentage) / 100.0;
+    return value + increase;
+}

@@ -1,0 +1,3 @@
+float f_to_c(float fahrenheit) {
+    return (5.0 / 9.0) * (fahrenheit - 32.0);
+}

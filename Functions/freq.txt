@@ -1,0 +1,11 @@
+int freq(const char *str, char target) {
+    int count = 0;
+    int i = 0;
+    jabtak (str[i] != '\0') {
+        agar(str[i] == target) {
+            count=count+1;
+        }
+        i=i+1;
+    }
+    return count;
+}

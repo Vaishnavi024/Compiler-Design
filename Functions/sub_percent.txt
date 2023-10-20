@@ -1,0 +1,4 @@
+float sub_percent(float value, float percentage) {
+    float decrease = (value * percentage) / 100.0;
+    return value - decrease;
+}

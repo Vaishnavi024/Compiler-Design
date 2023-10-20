@@ -1,0 +1,3 @@
+float negate(float num) {
+    return -num;
+}

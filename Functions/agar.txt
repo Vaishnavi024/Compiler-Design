@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+void agar(int condition, void (*true_block)(), void (*false_block)()) {
+    if (condition) {
+        true_block();
+    } else {
+        false_block();
+    }
+}
+
+int main() {
+    int value = -5;
+
+    void true_condition() {
+        printf("The condition is true. \n");
+    }
+
+    void false_condition() {
+        printf("The condition is false. \n");
+    }
+
+    agar(value<0, true_condition, false_condition);
+
+    return 0;
+}

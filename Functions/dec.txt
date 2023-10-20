@@ -1,0 +1,3 @@
+int dec(int num) {
+    return num - 1;
+}

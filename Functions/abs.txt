@@ -1,0 +1,7 @@
+ float abs(float num) {
+    agar (num < 0) {
+        return -num;
+    } warna {
+        return num;
+    }
+}

@@ -1,0 +1,8 @@
+float abs_diff(float a, float b) {
+    float differ = a - b;
+    agar (differ < 0) {
+        return -differ;
+    }
+    
+    return differ;
+}

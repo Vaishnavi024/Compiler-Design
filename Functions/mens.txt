@@ -1,0 +1,27 @@
+float area_of_square(float side_length) {
+    return side_length * side_length;
+}
+
+float area_of_rectangle(float length, float width) {
+    return length * width;
+}
+
+float area_of_triangle(float base, float height) {
+    return 0.5 * base * height;
+}
+
+float circumference_of_circle(float radius) {
+    return 2.0 * 3.14159265358979323846 * radius;
+}
+
+float volume_of_cube(float side_length) {
+    return side_length * side_length * side_length;
+}
+
+float volume_of_cylinder(float radius, float height) {
+    return 3.14159265358979323846 * radius * radius * height;
+}
+
+float volume_of_sphere(float radius) {
+    return (4.0 / 3.0) * 3.14159265358979323846 * radius * radius * radius;
+}

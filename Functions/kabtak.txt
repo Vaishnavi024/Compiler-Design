@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+void kabtak(int (*condition)(), void (*loop_block)()) {
+    while (condition()) {
+        loop_block();
+    }
+}
+
+int main() {
+    int i = 0;
+    int x=0;
+    printf("Enter number of loops you want: ");
+    scanf("%d", &x);
+    int my_condition() {
+        return i < x;
+    }
+
+    void loop() {
+        printf("Iteration %d\n",i,x);
+        i=i+1;
+    }
+
+    kabtak(my_condition, loop);
+    return 0;
+}

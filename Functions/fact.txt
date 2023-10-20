@@ -1,0 +1,9 @@
+int fact(int number) {
+    int result = 1;
+    int i = 1;
+    jabtak (i <= number) {
+        result = result * i;
+        i=i+1;
+    }
+    return result;
+}

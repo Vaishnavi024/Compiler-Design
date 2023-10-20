@@ -1,0 +1,11 @@
+int strlen(const char *str) {
+    int length = 0;
+    jabtak (str[length] != '\0') {
+        length=length+1;
+    }
+    return length;
+}
+
+
+
+

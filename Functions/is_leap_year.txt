@@ -1,0 +1,22 @@
+int is_leap_year(int year) {
+    int result;
+    agar (year % 4 == 0) {
+        agar (year % 100 == 0) {
+            agar (year % 400 == 0) {
+                result = 1;
+            } warna {
+                result = 0;
+            }
+        } warna {
+            result = 1;
+        }
+    } warna {
+        result = 0;
+    }
+    return result;
+}
+
+
+
+
+

@@ -1,0 +1,3 @@
+float calc_si(float principal, float rate, float time) {
+    return (principal * rate * time) / 100.0;
+}

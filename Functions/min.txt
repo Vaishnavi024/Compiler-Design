@@ -1,0 +1,7 @@
+int min(int a, int b) {
+    agar (a < b) {
+        return a;
+    } warna {
+        return b;
+    }
+}

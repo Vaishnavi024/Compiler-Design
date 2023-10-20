@@ -1,0 +1,3 @@
+int round(float num) {
+    return (int)(num + 0.5);
+}
