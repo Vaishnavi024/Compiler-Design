@@ -1,0 +1,25 @@
+char ascii_to_char(int code) {
+'char' IS A KEYWORD
+' ' IS A DELIMITER
+'ascii_to_char' IS A VALID IDENTIFIER
+'(' IS A DELIMITER
+'int' IS A KEYWORD
+' ' IS A DELIMITER
+'code' IS A VALID IDENTIFIER
+')' IS A DELIMITER
+' ' IS A DELIMITER
+'{' IS A DELIMITER
+
+    return code;
+' ' IS A DELIMITER
+' ' IS A DELIMITER
+' ' IS A DELIMITER
+' ' IS A DELIMITER
+'return' IS A KEYWORD
+' ' IS A DELIMITER
+'code' IS A VALID IDENTIFIER
+';' IS A DELIMITER
+
+}
+'}' IS A DELIMITER
+
