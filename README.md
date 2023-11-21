@@ -29,6 +29,6 @@ The project is expected to be completed by December 2023.
 
 ### 3. Language Being Used
 
-We are implementing "Jugaad" using the C programming language.
+I am implementing "Jugaad" using the C programming language.
 
-Thank you for showing interest in "Jugaad." We look forward to bringing a touch of Indian culture and Gen Z spirit to the world of programming languages. Happy coding!
+Thank you for showing interest in "Jugaad." 
