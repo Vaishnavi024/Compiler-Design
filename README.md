@@ -20,15 +20,8 @@ The name of the language is "Jugaad," a popular term among the Indian youth and 
 
 ### 2. What language are you building and how is it different?
 
-"Jugaad" is a toy programming language built from scratch using the C language as its foundation. It offers basic functionalities such as printing, looping, and conditionals, with a syntax framework similar to C or Java. However, what sets "Jugaad" apart is its unique twist: the keywords of the language are in Hindi Gen Z slang. This adds a fun and appealing dimension, making it more relatable to the new generation and easy to remember. To truly embody its name, "Jugaad" also includes in-built functions for commonly needed tasks, such as counting frequency.
+"Jugaad" is a toy programming language built from scratch using the C language as its foundation. It offers basic functionalities such as printing, looping, and conditionals, with a syntax framework similar to C or Java. However, what sets "Jugaad" apart is its unique twist: some of the keywords of the language are in Hindi Gen Z slang. This adds a fun and appealing dimension, making it more relatable to the new generation and easy to remember. To truly embody its name, "Jugaad" also includes in-built functions for commonly needed tasks, such as counting frequency.
 
-### Expected Deliverables
-
-We plan to deliver the following:
-
-- A working compiler for the toy programming language.
-- Comprehensive documentation of the implementation.
-- Several sample programs written in the "Jugaad" language.
 
 ### Project Timeline
 
